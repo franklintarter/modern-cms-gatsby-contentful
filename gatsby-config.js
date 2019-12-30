@@ -1,3 +1,5 @@
+const settings = require("./settings.json")
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -5,6 +7,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: settings.spaceid,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: settings.apikey,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

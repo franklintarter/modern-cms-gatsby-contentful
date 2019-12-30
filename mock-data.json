@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Dinner",
+    "sections": [
+      {
+        "name": "Small Plates",
+        "imageAlt": "ricotta & spinach gnocchi",
+        "image": "https://images.unsplash.com/photo-1479832912902-77089f02b1d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+        "items": [
+          {
+            "name": "shrimp pil pil",
+            "description": "sizzling shrimp, butter, garlic, chile flake",
+            "price": 13
+          },
+          {
+            "name": "ricotta & spinach gnocchi",
+            "description": "brown butter, parmesan",
+            "price": 8
+          }
+        ]
+      },
+      {
+        "name": "Mains",
+        "imageAlt": "Baja Taco",
+        "image": "https://images.unsplash.com/photo-1568106690101-fd6822e876f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1780&q=80",
+        "items": [
+          {
+            "name": "baja taco",
+            "description": "hand battered/fried cod, provolone, chile aioli, tomatillo, shredded cabbage, queso cotija",
+            "price": 7
+          },
+          {
+            "name": "bucatini & meatballs",
+            "description": "w/ tomato butter",
+            "price": 11
+          }
+        ]
+      }
+    ]
+  }
+]
